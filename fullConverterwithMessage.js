@@ -7,13 +7,13 @@ console.log(changeMoney(25));
 
 function changeWater(liters){
     var gallons = liters*0.17;
-    var message = liters+" liters are"+gallons+" gallons.";
+    var message = liters+" liters are "+gallons+" gallons.";
     return message;
 }
 console.log(changeWater(3));
 
 function changeHeigth(meters){
     var centimeters = meters/100;
-    var message = centimeters+" centimeters are"+meters+" meters."
+    var message = centimeters+" centimeters are "+meters+" meters."
 }
-console.log(changeHeigth);
+console.log(changeHeigth(34));
