@@ -13,7 +13,7 @@ def changeWater(liters):
 print(changeWater(3))
 
 def changeHeigth(meters):
-    centimeters = meters/100
+    centimeters = meters*100
     message = str(centimeters)+" centimeters are "+str(meters)+" meters."
     return message
 
