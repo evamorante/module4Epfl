@@ -1,5 +1,5 @@
 def converter(celsuis):
-    farenheit = celsuis*((23*9/5)+32)
+    farenheit = (celsuis*9/5)+32
     return farenheit
 
 print(converter(47))
