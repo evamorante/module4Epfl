@@ -1,20 +1,20 @@
 def changeMoney(dollars):
     francs = dollars*1.02
-    message = dollars+" dollars are "+francs+" francs."
+    message = str(dollars)+" dollars are "+str(francs)+" francs."
     return message
 
 print(changeMoney(25))
 
 def changeWater(liters):
     gallons = liters*0.17
-    message = liters+" liters are "+gallons+" gallons."
+    message = str(liters)+" liters are "+str(gallons)+" gallons."
     return message
 
 print(changeWater(3))
 
 def changeHeigth(meters):
     centimeters = meters/100
-    message = centimeters+" centimeters are "+meters+" meters."
+    message = str(centimeters)+" centimeters are "+str(meters)+" meters."
     return message
 
 print(changeHeigth(34))
