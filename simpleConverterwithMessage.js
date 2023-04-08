@@ -1,7 +1,7 @@
 //ex 16. module 4
 function converter(celsuis){
     var farenheit = (celsuis*9/5)+32;
-    var message = str(celsuis)+" celsuis are "+str(farenheit)+" farenheit.";
+    var message = celsuis+" celsuis are "+farenheit+" farenheit.";
     return message;
 }
 
