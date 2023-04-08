@@ -15,5 +15,6 @@ console.log(changeWater(3));
 function changeHeigth(meters){
     var centimeters = meters/100;
     var message = centimeters+" centimeters are "+meters+" meters."
+    return message
 }
 console.log(changeHeigth(34));
